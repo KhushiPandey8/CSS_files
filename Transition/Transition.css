@@ -1,0 +1,22 @@
+div{
+	height: 200px;
+	width: 200px;
+	background-color: aquamarine;
+	border: 2px solid black;
+	/*transition-property:all ;
+	transition-duration: 3s;
+/*	transition-timing-function: steps(3);*/
+/*transition-timing-function: ease-in;//ease-out,linear,steps
+transition-delay: 2s;*/
+  transition:all 2s nase-in 1s;
+}
+div:hover{
+	background-color: red;
+
+/*	transition: 2s;*/
+	font-size: 30px;
+	color: white;
+}
+div:active{
+	background-color: pink;
+}

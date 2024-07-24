@@ -1,0 +1,29 @@
+div{
+	height: 100px;
+	width: 100px;
+	background-color: aqua;
+	border: 2px solid black;
+	display: inline-block;
+/*	background-image: url("");*/
+/*	background-size: cover,contains,auto;*/
+/*background-repeat: no-repeat;*/
+}
+#box-1{
+	position: static;
+}
+#box-2{
+	/*position: relative;
+	top: 10px;
+	left: 20px;
+
+}*/
+position: absolute;
+top: 10px;
+z-index: 3;
+
+}
+#box-3{
+position: absolute;/*
+right: 10px;
+bottom: 20px;*/
+}

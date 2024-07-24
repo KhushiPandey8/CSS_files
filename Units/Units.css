@@ -1,0 +1,18 @@
+#box-1{
+	height: 100px;
+	width: 200px;
+	background-color: green;
+	font-size: 10px;
+}
+#box-2{
+	height: 50px;
+	width: 30%;
+	background-color: yellow;
+	margin-left: 10%;
+
+	font-size: 2em;//two times of parent font size
+/*	width: 5em;// fonts size of elements it's self*/
+/*   width: 4rem;*/
+/*   height: 20vh;*/
+/*width: 20vw;*/
+}
